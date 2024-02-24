@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rotating Navigation</title>
+</head>
+<body>
+    <!-- container that contains everything -->
+    <div class="container">
+        <!-- container for the circle and it's components. It used to position the circle itself -->
+        <div class="circle-container">
+            <!-- The circle which is inside the circle-container and it contains the buttons and will be styled normally(color, height, width, etc...) -->
+            <div class="circle">
+                <!-- buttons inside the circle -->
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Read The Article!</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in dolore! Illo error, pariatur sint voluptas, recusandae architecto vitae, fugit ipsum quas quo delectus quia in labore voluptates deserunt at praesentium aliquid voluptatum ut consequuntur cumque reprehenderit rem nisi. Ducimus nostrum perspiciatis voluptate odio labore officia veniam ullam ad commodi. Libero rem vero eligendi doloremque molestias animi, modi ducimus officia ipsa sequi sunt? Magni, accusantium quos, ab dolore aperiam accusamus qui nihil nisi error odio inventore pariatur asperiores sed et illo similique amet facere quis dolores voluptates commodi vitae. Veritatis soluta excepturi dolor facilis praesentium cupiditate illum debitis, quibusdam consequuntur.</p>
+            
+            <h3>My Dog</h3>
+            <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="doggy" />
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias sit fuga possimus. Esse nesciunt maxime officia exercitationem aliquam nulla pariatur alias aliquid. Error tenetur libero quos repellendus est architecto natus deserunt aspernatur eligendi ut dolores labore eum enim repellat commodi nesciunt minima, atque excepturi. Numquam hic laboriosam ipsa explicabo atque! Omnis eius aliquam quod quibusdam ipsa sunt autem adipisci tempora molestiae consectetur ad quos odio quaerat, asperiores voluptatibus? Asperiores vel culpa, doloremque dolorum iste similique?</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
